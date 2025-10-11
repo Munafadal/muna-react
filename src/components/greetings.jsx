@@ -1,10 +1,15 @@
+import { Fragment } from "react";
+
 // Greeting.jsx
 function Greeting(props) {
-  return <h2>Hello, {props.name} {props.surname} 👋</h2>;
+  return (
+    <>
+      <h1>
+        Hello, {props.name} {props.surname} 👋
+      </h1>
+      ;<h2>This text was not there</h2>
+    </>
+  );
 }
 
 export default Greeting;
-
-
-
-
